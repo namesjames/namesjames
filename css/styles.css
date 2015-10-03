@@ -12,7 +12,7 @@ body {
   margin: 0;
   min-height: 100%;
   overflow: hidden; }
-  .grid li {
+.grid li {
     height: 420px;
     color: white;
     display: block;
@@ -22,17 +22,17 @@ body {
     z-index: 0;
     background-color: black;
     box-shadow: none; }
-    .grid li.open {
+.grid li.open {
       z-index: 9000; }
-    .grid li:hover {
+.grid li:hover {
       z-index: 10; }
-      .grid li:hover .item-bg {
+.grid li:hover .item-bg {
         -webkit-transform: scale(1.05);
         -moz-transform: scale(1.05);
         -ms-transform: scale(1.05);
         -o-transform: scale(1.05);
         transform: scale(1.05); }
-      .grid li:hover .item-name h1 {
+.grid li:hover .item-name h1 {
         -webkit-transform: translate(0, 0);
         -moz-transform: translate(0, 0);
         -ms-transform: translate(0, 0);
