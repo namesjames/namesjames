@@ -1,11 +1,7 @@
 /*
 * debouncedresize: special jQuery event that happens once after a window resize
-*
 * latest version and complete README available on Github:
 * https://github.com/louisremi/jquery-smartresize/blob/master/jquery.debouncedresize.js
-*
-* Copyright 2011 @louis_remi
-* Licensed under the MIT license.
 */
 
 var $event = $.event,
